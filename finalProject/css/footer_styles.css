@@ -1,0 +1,127 @@
+footer{
+  display: flex;
+  width: 100vw;
+  height: 300px;
+  /* border: 1px solid yellow; */
+  background-color: #1c1f1f;
+}
+
+
+.footerLeft{
+  /* border: 1px solid red; */
+  width: 50%;
+  color: white;
+  font-family: Avenir, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoImageFooter{
+  display: flex;
+  align-items: center;
+  color: rgb(155, 149, 149);
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.logoImageFooter img{
+  width: 200px;
+  height: 200px;
+  margin-left: 150px;
+
+}
+.logoImageFooter p{
+  /* margin-right: 300px; */
+}
+
+.footerLinks{
+  /* border: 1px solid red; */
+  margin-inline: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.footerLinks a{
+  text-decoration: none;
+  color: rgb(155, 149, 149);
+}
+
+
+
+.footerRight{
+  /* border: 1px solid blue; */
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.socialMediaSection{
+  display: flex;
+  gap: 40px;
+  /* width: 100vw; */
+  margin-left: 40%;
+  /* margin-right: 100px; */
+  /* border: 1px solid red; */
+  margin-top: 30px;
+  /* margin-right: 100px; */
+
+}
+
+.socialMediaLogos{
+  width: 30px;
+  height: 30px;
+}
+
+.subscribeList{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: Avenir, Helvetica, sans-serif;
+  color: rgb(155, 149, 149);
+
+}
+
+.subscribeList p:first-of-type{
+  color: white;
+
+}
+
+.form{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 5px;
+  margin-right: 100px;
+  /* border: 1px solid red; */
+
+}
+
+.form input[type="text"] , [type="email"]{
+  /* min-width: 450px; */
+  text-decoration: none;
+  padding: 15px;
+  font-family: Avenir, Helvetica, sans-serif;
+  background-color: #404141;
+  border: 1px solid rgb(155, 149, 149);
+  color: white;
+  border-radius: 20px;
+
+}
+
+.form input[type="submit"]{
+  border-radius: 20px;
+  width: 500px;
+  text-decoration: none;
+  background-color: #E15554;
+  /* margin-bottom: 10px; */
+  color: #ffffff ;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid rgb(155, 149, 149);
+  margin-top: 2px;
+}
