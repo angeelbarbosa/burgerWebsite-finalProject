@@ -111,6 +111,37 @@
 }
 
 
+/* menu arragement  */
+
+.wrapper{
+  /* border: 1px solid red; */
+  margin: auto;
+  max-width: 350px;
+  margin-top: 50px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 10px solid #f1d103cf;;
+}
+
+.menuItem{
+  max-width: 320px;
+}
+
+.menuItem img{
+  max-width: 120px;
+  max-height: 120px;
+  margin-left: -70px;
+  margin-top: 50px;
+}
+
+.itemInfo{
+  margin-left: 30px;
+}
+
+
 
 
 
